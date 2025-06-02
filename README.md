@@ -42,6 +42,7 @@
     - Input JSON 파일 세팅 (1개)
     - Output Markdown Report 경로 세팅 (기본: `./02_outputs/`)
     - Output Screenshot 경로 세팅 (기본: `./02_outputs/screenshots/`)
+        - ***주의! Absolute Path를 반드시 수정해야 함***
     - Template Markdown 파일 세팅 (기본: `03_ref\report_md_template.md`)
         - AI Agent가 분석 결과 마크다운 리포트를 생성할 때 템플릿으로 활용하는 문서 (mdc 내에 자세한 Rule 포함)
 2. `01_inputs\*.json`: 분석 대상 JSON 파일로써, 메뉴구조도를 기반으로 계층적으로 구성되어 있으며, leaf node는 *BrowserTools*가 자동으로 탐색하게 될 0..N개의 `includedScreens`를 포함
@@ -68,3 +69,11 @@
    ```shell
    Python clean_outputs.py
    ```
+
+
+## 저작권 및 문의
+
+> 본 코드는 *Cursor AI*로 만들어졌습니다.
+
+- 저작권: 2025 Copyright ⓒ Solution Link. All Rights Reserved.
+- 문의: 백영민(ymbaek@sol-link.com)
