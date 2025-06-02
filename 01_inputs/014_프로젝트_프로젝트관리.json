@@ -1,0 +1,152 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "프로젝트",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "프로젝트 관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "프로젝트 → 프로젝트 관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "이슈/위험 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/riskList/list.do?menuId=202",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → 이슈/위험 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "이슈/위험 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/riskList/list.do?menuId=202",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "프로젝트 산출물",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/projectProduct/list.do?menuId=204",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → 프로젝트 산출물",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로젝트 산출물",
+                                    "screenId": "",
+                                    "screenUrl": "/project/projectProduct/list.do?menuId=204",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "Action Item 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/projectManagement/prjListByActionItem.do?CM=prjListByActionItem&menuId=517",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → Action Item 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "Action Item 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/projectManagement/prjListByActionItem.do?CM=prjListByActionItem&menuId=517",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "시정조치 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/correctiveList/list.do?menuId=205",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → 시정조치 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "시정조치 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/correctiveList/list.do?menuId=205",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "품질활동",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/mypage/cstList/list.do?menuId=523",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → 품질활동",
+                            "includedScreens": [
+                                {
+                                    "screenName": "품질활동",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/cstList/list.do?menuId=523",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

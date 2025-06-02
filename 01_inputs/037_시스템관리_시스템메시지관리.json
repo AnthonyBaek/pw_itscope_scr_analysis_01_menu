@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "시스템관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "시스템메시지관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "시스템관리 → 시스템메시지관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "TODO 메시지",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/todoMessage/list.do?menuId=521",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템메시지관리 → TODO 메시지",
+                            "includedScreens": [
+                                {
+                                    "screenName": "TODO 메시지",
+                                    "screenId": "",
+                                    "screenUrl": "/common/todoMessage/list.do?menuId=521",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "에러로그관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/system/errorLog/list.do?menuId=554",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템메시지관리 → 에러로그관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "에러로그관리",
+                                    "screenId": "",
+                                    "screenUrl": "/system/errorLog/list.do?menuId=554",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "에러메시지관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/errorCode/list.do?menuId=752",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템메시지관리 → 에러메시지관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "에러메시지관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/errorCode/list.do?menuId=752",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "산출물 다운로드 로그",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/apndFile/userArtifactDownloadLogList.do?CM=userArtifactDownloadLogList&menuId=677",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템메시지관리 → 산출물 다운로드 로그",
+                            "includedScreens": [
+                                {
+                                    "screenName": "산출물 다운로드 로그",
+                                    "screenId": "",
+                                    "screenUrl": "/common/apndFile/userArtifactDownloadLogList.do?CM=userArtifactDownloadLogList&menuId=677",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

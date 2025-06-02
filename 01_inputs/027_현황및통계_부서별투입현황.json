@@ -1,0 +1,51 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "현황및통계",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "부서별 투입현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/project/dashboard/manmonthDashboard.do?CM=manmonthDashboard&menuId=735",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → 부서별 투입현황",
+                    "includedScreens": [
+                        {
+                            "screenName": "부서별 투입현황",
+                            "screenId": "",
+                            "screenUrl": "/project/dashboard/manmonthDashboard.do?CM=manmonthDashboard&menuId=735",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

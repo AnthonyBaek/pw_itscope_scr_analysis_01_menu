@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "프로젝트",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "프로젝트 정보",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "프로젝트 → 프로젝트 정보",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "Master Project",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/project/list.do?CM=list&menuId=201",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 정보 → Master Project",
+                            "includedScreens": [
+                                {
+                                    "screenName": "Master Project",
+                                    "screenId": "",
+                                    "screenUrl": "/project/project/list.do?CM=list&menuId=201",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "Sub Project",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/project/subList.do?CM=subList&menuId=529",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 정보 → Sub Project",
+                            "includedScreens": [
+                                {
+                                    "screenName": "Sub Project",
+                                    "screenId": "",
+                                    "screenUrl": "/project/project/subList.do?CM=subList&menuId=529",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "산출물 결함현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/artifactDefectList.do?CM=tempFrame&menuId=856",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 정보 → 산출물 결함현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "산출물 결함현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/artifactDefectList.do?CM=tempFrame&menuId=856",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "공정현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/project/ProjectScheduleList.do?CM=ProjectScheduleList&menuId=530",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 정보 → 공정현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "공정현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/project/ProjectScheduleList.do?CM=ProjectScheduleList&menuId=530",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

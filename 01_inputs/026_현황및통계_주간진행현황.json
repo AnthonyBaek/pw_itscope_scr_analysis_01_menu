@@ -1,0 +1,51 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "현황및통계",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "주간진행현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/report/report/weekReportStatusList.do?CM=weekReportStatusList&menuId=705",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → 주간진행현황",
+                    "includedScreens": [
+                        {
+                            "screenName": "주간진행현황",
+                            "screenId": "",
+                            "screenUrl": "/report/report/weekReportStatusList.do?CM=weekReportStatusList&menuId=705",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

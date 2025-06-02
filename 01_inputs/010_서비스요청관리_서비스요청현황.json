@@ -1,0 +1,86 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "서비스요청관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "서비스요청 현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "서비스요청관리 → 서비스요청 현황",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "서비스요청 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/csr/csr/csrStatus.do?CM=csrStatus&menuId=870",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 서비스요청 현황 → 서비스요청 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "서비스요청 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/csr/csr/csrStatus.do?CM=csrStatus&menuId=870",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "사전협의",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/pal/knowledge/list.do?CM=list&knowledgeDiv=33&menuId=708",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 서비스요청 현황 → 사전협의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "사전협의",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/knowledge/list.do?CM=list&knowledgeDiv=33&menuId=708",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

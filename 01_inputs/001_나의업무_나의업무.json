@@ -1,0 +1,152 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "나의업무",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "나의업무",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "나의업무 → 나의업무",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "일정 TODO",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/mypage/todo/todoScheduler.do?CM=todoScheduler&menuId=777",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → 일정 TODO",
+                            "includedScreens": [
+                                {
+                                    "screenName": "일정 TODO",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/todo/todoScheduler.do?CM=todoScheduler&menuId=777",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "My Page",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/mypage/todo/list.do?menuId=102",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → My Page",
+                            "includedScreens": [
+                                {
+                                    "screenName": "My Page",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/todo/list.do?menuId=102",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "휴가/세미나/출장",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/mypage/agency/list.do?menuId=662",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → 휴가/세미나/출장",
+                            "includedScreens": [
+                                {
+                                    "screenName": "휴가/세미나/출장",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/agency/list.do?menuId=662",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "나의결재함",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/mypage/todo/listForApprList.do?CM=listForApprList&menuId=661",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → 나의결재함",
+                            "includedScreens": [
+                                {
+                                    "screenName": "나의결재함",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/todo/listForApprList.do?CM=listForApprList&menuId=661",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "공수관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/mypage/mypage/myTaskDiary.do?menuId=836",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → 공수관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "공수관리",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/mypage/myTaskDiary.do?menuId=836",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

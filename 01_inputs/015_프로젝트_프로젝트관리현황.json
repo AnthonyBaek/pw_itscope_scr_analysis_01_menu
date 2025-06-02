@@ -1,0 +1,64 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "프로젝트",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "프로젝트관리 현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "프로젝트 → 프로젝트관리 현황",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "★ action item 기능 정의",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customType/statusList.do?typeSeq=1&menuId=797",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트관리 현황 → ★ action item 기능 정의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "★ action item 기능 정의",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customType/statusList.do?typeSeq=1&menuId=797",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

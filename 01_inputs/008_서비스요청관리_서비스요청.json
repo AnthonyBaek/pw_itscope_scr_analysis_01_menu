@@ -1,0 +1,64 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "서비스요청관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "서비스요청",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "서비스요청관리 → 서비스요청",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "개발의뢰",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/csr/csr/list.do?CM=list&formKind=19&csrDiv=1&menuId=709",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 서비스요청 → 개발의뢰",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발의뢰",
+                                    "screenId": "",
+                                    "screenUrl": "/csr/csr/list.do?CM=list&formKind=19&csrDiv=1&menuId=709",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

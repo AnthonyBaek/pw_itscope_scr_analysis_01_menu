@@ -1,0 +1,86 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "업무표준",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "시스템정의기능",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "업무표준 → 시스템정의기능",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "표준 프로젝트 관리 기능 정의",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/stdType/list.do?menuId=786",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 시스템정의기능 → 표준 프로젝트 관리 기능 정의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 프로젝트 관리 기능 정의",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/stdType/list.do?menuId=786",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "표준 게시판 기능 정의",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/list.do?menuId=793",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 시스템정의기능 → 표준 게시판 기능 정의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 게시판 기능 정의",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/list.do?menuId=793",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

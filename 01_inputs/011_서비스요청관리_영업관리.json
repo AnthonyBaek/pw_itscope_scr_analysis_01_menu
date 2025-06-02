@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "서비스요청관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "영업관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "서비스요청관리 → 영업관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "영업현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sales/sales/list.do?menuId=824",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 영업관리 → 영업현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "영업현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sales/sales/list.do?menuId=824",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "계약현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sales/sales/conlist.do?menuId=825",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 영업관리 → 계약현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "계약현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sales/sales/conlist.do?menuId=825",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "매입/매출현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sales/sales/purchaseList.do?menuId=826",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 영업관리 → 매입/매출현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "매입/매출현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sales/sales/purchaseList.do?menuId=826",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "거래처관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/comp/list.do?menuId=833",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 영업관리 → 거래처관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "거래처관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/comp/list.do?menuId=833",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

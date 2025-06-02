@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "시스템관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "시스템정보관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "시스템관리 → 시스템정보관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "기초코드",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/refCode/list.do?menuId=501",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템정보관리 → 기초코드",
+                            "includedScreens": [
+                                {
+                                    "screenName": "기초코드",
+                                    "screenId": "",
+                                    "screenUrl": "/common/refCode/list.do?menuId=501",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "Tab 설정",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/tab/controlList.do?CM=controlList&menuId=507",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템정보관리 → Tab 설정",
+                            "includedScreens": [
+                                {
+                                    "screenName": "Tab 설정",
+                                    "screenId": "",
+                                    "screenUrl": "/common/tab/controlList.do?CM=controlList&menuId=507",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "연간일정관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/calendar/list.do?menuId=508",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템정보관리 → 연간일정관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "연간일정관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/calendar/list.do?menuId=508",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "회의실장소관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/meeting/meeting/listMeetingAsset.do?CM=listMeetingAsset&menuId=672",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템정보관리 → 회의실장소관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "회의실장소관리",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/listMeetingAsset.do?CM=listMeetingAsset&menuId=672",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

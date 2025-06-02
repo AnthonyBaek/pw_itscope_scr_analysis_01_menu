@@ -1,0 +1,51 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "의사소통관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "자료실",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/pal/knowledge/list.do?menuId=850",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "의사소통관리 → 자료실",
+                    "includedScreens": [
+                        {
+                            "screenName": "자료실",
+                            "screenId": "",
+                            "screenUrl": "/pal/knowledge/list.do?menuId=850",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "시스템관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "개발지원",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "시스템관리 → 개발지원",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "인터페이스관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/customList.do?customSeq=6&menuId=842",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 개발지원 → 인터페이스관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "인터페이스관리",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/customList.do?customSeq=6&menuId=842",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "개발자가이드",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/adminjob/developerGuideMain.do?CM=developerGuideMain&menuId=843",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 개발지원 → 개발자가이드",
+                            "includedScreens": [
+                                {
+                                    "screenName": "자바스크립트",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage1.do?CM=developerGuidePage1",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "Code Generator",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage2.do?CM=developerGuidePage2",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "오라클",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage3.do?CM=developerGuidePage3",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "제이쿼리",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage4.do?CM=developerGuidePage4",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "Summernote",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage5.do?CM=developerGuidePage5",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "dhtmlx",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage6.do?CM=developerGuidePage6",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "SearchPopup",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage7.do?CM=developerGuidePage7",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "diagram",
+                                    "screenId": "",
+                                    "screenUrl": "/common/flowChart/diagramFlowChart.do?CM=developerGuidePage9",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "Test",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage9.do",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "Modal(test)",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage10.do",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "DhtmlxGantt(test)",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage11.do",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "DiagramTest",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage12.do",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "EditorTest",
+                                    "screenId": "",
+                                    "screenUrl": "/adminjob/developerGuidePage13.do",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "PMO 초기설정",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/menu/systemInit.do?menuId=844",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 개발지원 → PMO 초기설정",
+                            "includedScreens": [
+                                {
+                                    "screenName": "1.회사관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/comp/list.do?",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "2.부서관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/dept/deptManagement.do?",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "3.사용자관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/user/list.do?",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "4.프로젝트등록",
+                                    "screenId": "",
+                                    "screenUrl": "/project/project/list.do?",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

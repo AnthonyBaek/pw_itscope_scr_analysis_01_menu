@@ -1,0 +1,108 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "프로젝트",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "Agile 프로젝트",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "프로젝트 → Agile 프로젝트",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "백로그",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/agile/agileBacklog/list.do?CM=Agile&menuId=801",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → Agile 프로젝트 → 백로그",
+                            "includedScreens": [
+                                {
+                                    "screenName": "백로그",
+                                    "screenId": "",
+                                    "screenUrl": "/agile/agileBacklog/list.do?CM=Agile&menuId=801",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "로드맵",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/agile/agileRoadMap/list.do?CM=Agile&menuId=802",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → Agile 프로젝트 → 로드맵",
+                            "includedScreens": [
+                                {
+                                    "screenName": "로드맵",
+                                    "screenId": "",
+                                    "screenUrl": "/agile/agileRoadMap/list.do?CM=Agile&menuId=802",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "스크럼보드",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/agile/agileScrumBoard/list.do?CM=Agile&menuId=803",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → Agile 프로젝트 → 스크럼보드",
+                            "includedScreens": [
+                                {
+                                    "screenName": "스크럼보드",
+                                    "screenId": "",
+                                    "screenUrl": "/agile/agileScrumBoard/list.do?CM=Agile&menuId=803",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "서비스요청관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "업무관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "서비스요청관리 → 업무관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "단순변경의뢰",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/pal/requestInfo/list.do?CM=list&formKind=31&menuId=837",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 업무관리 → 단순변경의뢰",
+                            "includedScreens": [
+                                {
+                                    "screenName": "단순변경의뢰",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/requestInfo/list.do?CM=list&formKind=31&menuId=837",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "출력의뢰",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/pal/requestInfo/list.do?CM=list&formKind=30&menuId=838",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 업무관리 → 출력의뢰",
+                            "includedScreens": [
+                                {
+                                    "screenName": "출력의뢰",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/requestInfo/list.do?CM=list&formKind=30&menuId=838",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "테이블변경",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/pal/requestInfo/list.do?CM=list&formKind=20&menuId=840",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 업무관리 → 테이블변경",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테이블변경",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/requestInfo/list.do?CM=list&formKind=20&menuId=840",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "방화벽정책변경",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/pal/requestInfo/list.do?CM=list&formKind=21&menuId=841",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 업무관리 → 방화벽정책변경",
+                            "includedScreens": [
+                                {
+                                    "screenName": "방화벽정책변경",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/requestInfo/list.do?CM=list&formKind=21&menuId=841",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

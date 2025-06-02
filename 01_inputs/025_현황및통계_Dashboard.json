@@ -1,0 +1,131 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "현황및통계",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "Dashboard",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/dashboard/dashBoardMng/list.do?menuId=401",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → Dashboard",
+                    "includedScreens": [
+                        {
+                            "screenName": "프로젝트Dashboard",
+                            "screenId": "",
+                            "screenUrl": "/project/projectSummary/detailNew.do?CM=detailNew",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "주간진척현황",
+                            "screenId": "",
+                            "screenUrl": "/report/report/weeklyDashboard.do?CM=weeklyDashboard",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "프로젝트현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashBoardProjectStatus.do?CM=DashBoardProjectStatus",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "종합현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashBoardTotalStatus.do?CM=DashBoardTotalStatus",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "월간 현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/summaryList.do?CM=summaryList",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "기한내현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/limitRateList.do?CM=limitRateList",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "주간 프로젝트 현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashMngWeeklyDeptPrjTab.do?CM=DashMngWeeklyDeptPrjTab",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "월별 프로젝트 현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashBoardDeptMonProject.do?CM=DashBoardDeptMonProject",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "부서별프로젝트현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashBoardDeptProject.do?CM=DashBoardDeptProject",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "의사소통관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "회의관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "의사소통관리 → 회의관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "회의실예약",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 회의관리 → 회의실예약",
+                            "includedScreens": [
+                                {
+                                    "screenName": "일자별현황",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854#tab1",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "회의실별 일정 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854#tab2",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "주간 일정",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854#tab3",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "월간 일정",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854#tab4",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "회의록관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/meeting/meeting/prjMeetingSchdule.do?CM=prjMeetingSchdule&menuId=855",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 회의관리 → 회의록관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "회의록관리",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/prjMeetingSchdule.do?CM=prjMeetingSchdule&menuId=855",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

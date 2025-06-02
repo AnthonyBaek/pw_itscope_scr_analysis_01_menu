@@ -1,0 +1,86 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "개발관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "요구사항 관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 요구사항 관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "RFP 요구사항",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/requestPattern/reqTrackList.do?CM=reqTrackList&menuId=641",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 요구사항 관리 → RFP 요구사항",
+                            "includedScreens": [
+                                {
+                                    "screenName": "RFP 요구사항",
+                                    "screenId": "",
+                                    "screenUrl": "/project/requestPattern/reqTrackList.do?CM=reqTrackList&menuId=641",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "요구사항정의",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/scopeInfo/scopeInfoList.do?CM=scopeInfoList&menuId=660",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 요구사항 관리 → 요구사항정의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "요구사항정의",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/scopeInfo/scopeInfoList.do?CM=scopeInfoList&menuId=660",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

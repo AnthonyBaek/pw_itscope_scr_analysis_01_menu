@@ -1,0 +1,86 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "의사소통관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "보고관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "의사소통관리 → 보고관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "프로젝트 주간보고",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/report/report/list.do?CM=list&searchType=&menuId=852",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 보고관리 → 프로젝트 주간보고",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로젝트 주간보고",
+                                    "screenId": "",
+                                    "screenUrl": "/report/report/list.do?CM=list&searchType=&menuId=852",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "프로젝트 월간보고",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/report/report/monthReportList.do?CM=monthReportList&searchType=&menuId=853",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 보고관리 → 프로젝트 월간보고",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로젝트 월간보고",
+                                    "screenId": "",
+                                    "screenUrl": "/report/report/monthReportList.do?CM=monthReportList&searchType=&menuId=853",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

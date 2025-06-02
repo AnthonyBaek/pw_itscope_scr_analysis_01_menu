@@ -1,0 +1,240 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "개발관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "결함 현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 결함 현황",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "설계 결함 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/sdlcScreenDefectList.do?CM=tempFrame&menuId=873",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 설계 결함 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "설계 결함 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/sdlcScreenDefectList.do?CM=tempFrame&menuId=873",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "프로그램 결함 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/pgmDefectList.do?menuId=772",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 프로그램 결함 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로그램 결함 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/pgmDefectList.do?menuId=772",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "테스트 결함 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/testDefectList.do?CM=testDefectList&menuId=651",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 결함 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 결함 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/testDefectList.do?CM=testDefectList&menuId=651",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "산출물 결함 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/artifactDefectList.do?CM=tempFrame&menuId=834",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 산출물 결함 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "산출물 결함 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/artifactDefectList.do?CM=tempFrame&menuId=834",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "테스트 결함 통계",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/testDefectStatusTotal.do?menuId=652",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 결함 통계",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 결함 통계",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/testDefectStatusTotal.do?menuId=652",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "테스트 업무별 결함",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/defectCountByWeekly.do?menuId=767",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 업무별 결함",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 업무별 결함",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/defectCountByWeekly.do?menuId=767",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "프로그램 업무별 결함",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/pgmDefectCountByWeekly.do?menuId=770",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 프로그램 업무별 결함",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로그램 업무별 결함",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/pgmDefectCountByWeekly.do?menuId=770",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "테스트 케이스별 결함율",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/testDefectByCase.do?menuId=768",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 케이스별 결함율",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 케이스별 결함율",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/testDefectByCase.do?menuId=768",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "테스트 결함 통계(항목별)",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/inspectionDefect/testDefectStatistics.do?menuId=879",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 결함 통계(항목별)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 결함 통계(항목별)",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/testDefectStatistics.do?menuId=879",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

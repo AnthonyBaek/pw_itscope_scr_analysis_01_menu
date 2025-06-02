@@ -1,0 +1,196 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "업무표준",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "표준관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "업무표준 → 표준관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "표준 산출물",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdArtifact/list.do?menuId=301",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 산출물",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 산출물",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdArtifact/list.do?menuId=301",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "표준 체크리스트",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdChecklist/list.do?menuId=302",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 체크리스트",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 체크리스트",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdChecklist/list.do?menuId=302",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "표준 WBS",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdWbs/list.do?CM=list&menuId=303",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 WBS",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 WBS",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdWbs/list.do?CM=list&menuId=303",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "표준 프로세스",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdWorkflow/list.do?menuId=538",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 프로세스",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 프로세스",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdWorkflow/list.do?menuId=538",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "표준 프로세스(Diagram)",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdDiaWorkflow/list.do?menuId=822",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 프로세스(Diagram)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 프로세스(Diagram)",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdDiaWorkflow/list.do?menuId=822",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "표준 화면",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdProcess/stdFormList.do?menuId=821",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 화면",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 화면",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdProcess/stdFormList.do?menuId=821",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "dhtmlx 산출물 샘플",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdArtifact/sampleList.do?menuId=882",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → dhtmlx 산출물 샘플",
+                            "includedScreens": [
+                                {
+                                    "screenName": "dhtmlx 산출물 샘플",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdArtifact/sampleList.do?menuId=882",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

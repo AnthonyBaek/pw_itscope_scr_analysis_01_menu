@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "의사소통관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "게시판",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "의사소통관리 → 게시판",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "게시판(테스트용)",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/customList.do?customSeq=3&menuId=883",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 게시판 → 게시판(테스트용)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "게시판(테스트용)",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/customList.do?customSeq=3&menuId=883",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "★ 표준 게시판",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/customList.do?customSeq=4&menuId=884",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 게시판 → ★ 표준 게시판",
+                            "includedScreens": [
+                                {
+                                    "screenName": "★ 표준 게시판",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/customList.do?customSeq=4&menuId=884",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "게시판2",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/customList.do?customSeq=2&menuId=880",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 게시판 → 게시판2",
+                            "includedScreens": [
+                                {
+                                    "screenName": "게시판2",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/customList.do?customSeq=2&menuId=880",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "게시판1",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/customList.do?customSeq=1&menuId=881",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 게시판 → 게시판1",
+                            "includedScreens": [
+                                {
+                                    "screenName": "게시판1",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/customList.do?customSeq=1&menuId=881",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

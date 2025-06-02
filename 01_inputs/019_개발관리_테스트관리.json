@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "개발관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "테스트관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 테스트관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "테스트계획",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcTest/testPlanList.do?isTestMode=false&menuId=779",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 테스트관리 → 테스트계획",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트계획",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTest/testPlanList.do?isTestMode=false&menuId=779",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "테스트수행",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcTest/testExecuteList.do?isTestMode=true&menuId=780",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 테스트관리 → 테스트수행",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트수행",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTest/testExecuteList.do?isTestMode=true&menuId=780",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "테스트진척현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcTest/testProgressStatus.do?menuId=782",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 테스트관리 → 테스트진척현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트진척현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTest/testProgressStatus.do?menuId=782",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "테스트지연현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcTest/testExecuteDelayList.do?isTestMode=true&menuId=783",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 테스트관리 → 테스트지연현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트지연현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTest/testExecuteDelayList.do?isTestMode=true&menuId=783",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

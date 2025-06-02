@@ -1,0 +1,86 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+**[작업 개요]**
+
+- 특정 테스트 범위의 JSON 파일을 기준으로, *Playwright MCP*를 사용해 화면을 자동으로 분석하는 작업을 수행한다.
+    - Input JSON: `./01_inputs/012_프로젝트_프로젝트정보.json`
+    - 어떠한 경우에도, Input JSON의 범위를 벗어나 탐색하지 않음
+- 분석 결과는 탐색한 화면 N개에 대해 (1) Markdown 파일 형식의 리포트와 (2) 스크린샷 파일을 포함하며, 다음 위치에 다음 파일명으로 저장한다.
+    - 파일명 명명 규칙
+        - `fileName`: JSON 파일 내 “현재 탐색중인” `screenUrl`의 /{address}.do* 부분 중 {address}만을 취해 slash(/)는 underscore(_)로 변경
+            - 예) URL (/report/report/list.do?CM=list&searchType=&menuId=852) → fileName (*report_report_list*)
+    - Markdown Report: `./02_outputs/{fileName}_{order}.md` (예. report_report_list_01.md)
+        - Markdown Report는 `./03_ref/report_md_template.md` 파일 양식을 따름
+    - Screenshot: `./02_outputs/screenshots/{fileName}_{order}.png` (예. report_report_list_01.png)
+        - Absolute Path: C:\workspace_cursor\itscope_online_manual_md\02_outputs\scr
+        - 스크린샷 파일명 확장자 뒤에 시간/일시 등을 절대 붙이지 말 것
+    - 위 `{order}`의 의미: `isLeaf`==true인 menu 노드가 `includedScreens` 내에 N개의 화면을 포함하고 있다면, 각 화면별로 파일명 뒤 `_{:02d}`를 붙임
+        - 만약 leaf의 `includedScreens`가 단 하나라면 숫자를 붙이지 않음 (i.e., _{order} 생략, 예. mypage_todo_todoscheduler.png)
+        - 만약 leaf의 `includedScreens`가 여러개라면 01부터 0N까지를 붙임 (i.e., _{order} 붙임, 예. report_report_list_01.md)
+
+**[작업 절차]**
+
+(Use Playwright MCP)
+
+1. Input JSON의 `target` 정보의 `serverUrl`을 통해 접속 (화면은 1920px x 1140px 로 설정)
+2. 로그인 페이지로 리다이렉션 시, ID:sadmin / PW:sadmin 으로 로그인 (단, 로그인 페이지로 리다이렉션이 되지 않았다면 다음으로 진행)
+    - 로그인 페이지 URL: http://221.148.66.193:20000/login_new.jsp
+    - ID 입력 필드: `input#j_username` / PW 입력 필드: `input#password` / 로그인 버튼: `div.login_btn`
+3. Input JSON 파일에 `menus` 배열을 탐색
+4. `isTestTarget` 이 true 인 경우만 하위 children 이동
+5. `isLeaf` == false && `isActive` == true && `isTestTarget` == true 인 경우 children 이동
+6. `isLeaf` == true && `isActive` == true && `isTestTarget` == true 인 경우 includedScreens 이동
+7. `includedScreens` 배열 내 각 화면의 `screenUrl` 에 접속 후 분석 및 결과 파일 생성
+    - 접속 URL은 `serverUrl` + `screenUrl` 이며 slash가 중복되면 하나만 남김
+        - 예. http://221.148.66.193:20000/report/report/list.do?CM=list&searchType=&menuId=852
+    - 현재 탐색중인 `screenUrl`을 기준으로 예상 저장 파일명 업데이트
+    - 다음 조건 검사 후 수행:
+        - id가 isMyProject인 checkbox 존재 시 클릭 해제 후 진행
+        - “조회조건 펼치기”가 있을 경우 클릭 한 후 진행 (텍스트가 정확히 일치할 경우에만 실행, 추측 금지)
+    - 접속한 화면의 스크린샷을 지정된 경로에 지정된 파일명(*.png)으로 저장
+        - 주의: 파일명은 현재 탐색중인 `screenUrl`을 기준으로 반드시 업데이트
+    - UI Component를 분석하여 Markdown Report를 생성
+        - ***[중요]*** 아래의 특수한 조건 외에는, 기본적으로 화면 구성 요소 (컴포넌트) 분석 시 div id 값이 bodyContent 내부만을 대상으로 수행
+            - `isTabPage`== true || `isFullPage` == true || `isPopupPage` == true 인 경우에는 전체 화면에 대하여 분석
+        - iframe 및 기타 컨테이너가 있을 경우, 해당 컨테이너 내부의 UI Component 도 상세히 분석
+    - 내용 작성에 대한 상세한 Rule은 아래의 [분석 보고서 작성 Rule] 참고
+    - 작성된 Markdown Report는 지정된 경로에 지정된 파일명으로 저장
+        - 주의: 파일명은 현재 탐색중인 `screenUrl`을 기준으로 반드시 업데이트
+    - </rewritten_file> 등의 쓸데없는 내용 작성 절대 금지
+    - ‘화면 구성 컴포넌트’ 및 ‘관련 Function 상세’ 영역 내에는, 표 외의 자동 작성된 내용은 절대 포함하지 말 것
+8. `playwright_close`는 실행하지 않음 (즉, 창을 닫지 않음)
+9. 탐색 및 분석을 모두 마친 후, 생성한 md파일들을 모두 검토하여 “</rewritten_file>” 등의 불필요한 문구가 있으면 삭제
+    
+    
+
+**[분석 보고서 작성 Rule]**
+
+- `report_md_template.md`의 목차를 절대 수정하지 말 것
+- 개요
+    - 화면 이름은 screenName 을 참조
+    - 화면 접근 경로는 path 를 참조
+    - 화면 url은 screenUrl 을 참조
+    - 화면 요약은 해당 html 을 분석하여 간단하게 요약 설명
+- 화면 상세
+    - 화면 구성 요소 분석
+    - 화면 구성 요소 설명
+    - 화면 구성 요소 예시
+    - 화면 구성 요소 예시 코드
+    - 화면 구성 요소 예시 코드 설명
+- 화면 UI 구성
+    - 저장한 화면 스크린샷을 md 파일에 불러오기
+- 화면 구성 컴포넌트 (화면 구성 컴포넌트 내용을 작성할때는 template 에 table에 양식에 맞춰 작성)
+    - 컬럼: {번호, 컴포넌트명, 컴포넌트 타입, 설명, 이벤트 유형, 이벤트 동작, 관련 Function}
+        - 번호는 계층적으로 구성 (1, 1.1, 1.2, 2, 2.1 등)
+        - `컴포넌트명`, `설명`, `이벤트 동작`은 친절한 자연어로 기술
+            - 예) 1.1 | 기간 선택 | DatePicker | 검색 조건을 입력하는 영역 | change | 시작일/종료일 유효성 검증 | validateDateRange()
+    - 화면을 구성하는 Input , Button , Select , Table , Chart 등 컴포넌트 분석
+        - 컴포넌트 타입 상세 설명
+            - input의 경우 구체적인 UI 타입으로 기술 (Input (Text), DatePicker, Checkbox 등)
+            - `div(...)`는 괄호 내의 컴포넌트만 표시 (예. div (button) → button)
+            - `input (checkbox)`는 `checkbox`로 표시
+
+    - template header 에 맞춰 컴포넌트 분석 내용 작성

@@ -1,0 +1,108 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "시스템관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "메뉴관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "시스템관리 → 메뉴관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "메뉴",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/menu/list.do?menuId=729",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 메뉴관리 → 메뉴",
+                            "includedScreens": [
+                                {
+                                    "screenName": "메뉴",
+                                    "screenId": "",
+                                    "screenUrl": "/common/menu/list.do?menuId=729",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "권한관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/common/menuAuth/list.do?menuId=503",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 메뉴관리 → 권한관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "권한관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/menuAuth/list.do?menuId=503",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "화면버튼관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/system/cmdPermit/list.do?menuId=818",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 메뉴관리 → 화면버튼관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "화면버튼관리",
+                                    "screenId": "",
+                                    "screenUrl": "/system/cmdPermit/list.do?menuId=818",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

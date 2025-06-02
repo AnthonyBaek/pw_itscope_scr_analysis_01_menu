@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "시스템관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "사용자접속로그",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "시스템관리 → 사용자접속로그",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "사용자접속로그(전체)",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/system/userAccess/list.do?CM=list&menuId=591",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 사용자접속로그 → 사용자접속로그(전체)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "사용자접속로그(전체)",
+                                    "screenId": "",
+                                    "screenUrl": "/system/userAccess/list.do?CM=list&menuId=591",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "사용자접속로그(일별)",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/system/userAccess/listDaily.do?CM=listDaily&menuId=592",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 사용자접속로그 → 사용자접속로그(일별)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "사용자접속로그(일별)",
+                                    "screenId": "",
+                                    "screenUrl": "/system/userAccess/listDaily.do?CM=listDaily&menuId=592",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "사용자접속로그(접속실패)",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/system/userAccess/listFailure.do?CM=listFailure&searchLoginDiv=LOGINFAIL&menuId=596",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 사용자접속로그 → 사용자접속로그(접속실패)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "사용자접속로그(접속실패)",
+                                    "screenId": "",
+                                    "screenUrl": "/system/userAccess/listFailure.do?CM=listFailure&searchLoginDiv=LOGINFAIL&menuId=596",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "데이터접근로그",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/system/userAccess/data.do?CM=data&menuId=597",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 사용자접속로그 → 데이터접근로그",
+                            "includedScreens": [
+                                {
+                                    "screenName": "데이터접근로그",
+                                    "screenId": "",
+                                    "screenUrl": "/system/userAccess/data.do?CM=data&menuId=597",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

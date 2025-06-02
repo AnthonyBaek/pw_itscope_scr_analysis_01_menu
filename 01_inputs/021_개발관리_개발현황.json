@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "개발관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "개발 현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 개발 현황",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "개발 진척 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&menuId=765",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발 현황 → 개발 진척 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발 진척 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&menuId=765",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "업무별 진척 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&groupByBizCd=T&menuId=769",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발 현황 → 업무별 진척 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "업무별 진척 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&groupByBizCd=T&menuId=769",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "개발 지연 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcTab/developmentDelaystatusNew.do?CM=developmentDelaystatusNew&menuId=766",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발 현황 → 개발 지연 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발 지연 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/developmentDelaystatusNew.do?CM=developmentDelaystatusNew&menuId=766",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "개발자 생산성 추이",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcProgram/DeveloperDashboardList.do?menuId=758",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발 현황 → 개발자 생산성 추이",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발자 생산성 추이",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcProgram/DeveloperDashboardList.do?menuId=758",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

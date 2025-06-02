@@ -1,0 +1,130 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "개발관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "설계관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 설계관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "설계목록관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcScreen/list.do?CM=list&menuId=860",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 설계관리 → 설계목록관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "설계목록관리",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcScreen/list.do?CM=list&menuId=860",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "업무별 설계현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcScreen/sdlcScreenProgressStatus.do?CM=prjScreenProgressStatus&menuId=871",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 설계관리 → 업무별 설계현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "업무별 설계현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcScreen/sdlcScreenProgressStatus.do?CM=prjScreenProgressStatus&menuId=871",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "설계자별 설계현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcScreen/sdlcScreenDesignerStatus.do?CM=prjScreenProgressStatus&menuId=872",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 설계관리 → 설계자별 설계현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "설계자별 설계현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcScreen/sdlcScreenDesignerStatus.do?CM=prjScreenProgressStatus&menuId=872",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "설계지연현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/sdlc/sdlcScreen/sdlcScreenDelayStatus.do?CM=prjScreenDelayStatus&menuId=876",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 설계관리 → 설계지연현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "설계지연현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcScreen/sdlcScreenDelayStatus.do?CM=prjScreenDelayStatus&menuId=876",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

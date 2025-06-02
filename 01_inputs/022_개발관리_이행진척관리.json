@@ -1,0 +1,86 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "",
+            "menuName": "개발관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "",
+                    "menuName": "이행 진척관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 이행 진척관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "",
+                            "menuName": "이행관리",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/transitionScenario/transitionScenarioResultList.do?callType=&menuId=831",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 이행 진척관리 → 이행관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "이행관리",
+                                    "screenId": "",
+                                    "screenUrl": "/project/transitionScenario/transitionScenarioResultList.do?callType=&menuId=831",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "",
+                            "menuName": "이행현황",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/project/transitionScenario/transitionScenarioDashBoard.do?menuId=832",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 이행 진척관리 → 이행현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "이행현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/transitionScenario/transitionScenarioDashBoard.do?menuId=832",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
