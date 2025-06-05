@@ -6,17 +6,23 @@ alwaysApply: true
 **[작업 개요]**
 
 - 특정 테스트 범위의 JSON 파일을 기준으로, *Playwright MCP*를 사용해 화면을 자동으로 분석하는 작업을 수행한다.
-    - Input JSON: `./01_inputs/012_프로젝트_프로젝트정보.json`
+    - Input JSON: `01_inputs\menu_json_all\menu_all.json`
+    - 아래의 [작업 절차]에 따라, JSON 파일 내의 모든 테스트 대상 includedScreens 탐색 및 분석을 마친 이후 종료
     - 어떠한 경우에도, Input JSON의 범위를 벗어나 탐색하지 않음
 - 분석 결과는 탐색한 화면 N개에 대해 (1) Markdown 파일 형식의 리포트와 (2) 스크린샷 파일을 포함하며, 다음 위치에 다음 파일명으로 저장한다.
     - 파일명 명명 규칙
-        - `fileName`: JSON 파일 내 “현재 탐색중인” `screenUrl`의 /{address}.do* 부분 중 {address}만을 취해 slash(/)는 underscore(_)로 변경
-            - 예) URL (/report/report/list.do?CM=list&searchType=&menuId=852) → fileName (*report_report_list*)
-    - Markdown Report: `./02_outputs/{fileName}_{order}.md` (예. report_report_list_01.md)
+        - `fileName`: {`menuId`}_{`programName`}
+            - 예) Menu | URL: MN06.02.01 | /userCustom/stdType/list.do?menuId=786 -> `fileName`: *MN06_02_01_userCustom_stdType_list*
+            - `menuId`: JSON 파일 내 "현재 탐색중인" 화면을 포함하는 leaf menu node의 `menuId`에 기반하여 (예. MN06.02.01), period(.)를 underscore(_)로 변경한 문자열 (즉, MN06_02_01)
+            - `programName`: JSON 파일 내 “현재 탐색중인” `screenUrl`의 /{address}.do* 부분 중 {address}만을 취해 slash(/)는 underscore(_)로 변경
+            - `fileName`은 아래의 Markdown Report와 Screenshot 파일 명에 사용
+    - Markdown Report: `./02_outputs/reports/{fileName}.md` (예. report_report_list_01.md)
         - Markdown Report는 `./03_ref/report_md_template.md` 파일 양식을 따름
-    - Screenshot: `./02_outputs/screenshots/{fileName}_{order}.png` (예. report_report_list_01.png)
-        - Absolute Path: C:\workspace_cursor\itscope_online_manual_md\02_outputs\scr
-        - 스크린샷 파일명 확장자 뒤에 시간/일시 등을 절대 붙이지 말 것
+        - 동일 `fileName`에 대해 여러개의 리포트가 존재할 경우 아래의 설명과 같이 확장자 앞 `{order}` 삽입
+    - Screenshot: `./02_outputs/screenshots/{fileName}.png` (예. report_report_list_01.png)
+        - Absolute Path: C:\workspace_cursor\pw_itscope_scr_analysis_01_menu\02_outputs\screenshots
+        - 동일 `fileName`에 대해 여러개의 스크린샷이 존재할 경우 아래의 설명과 같이 확장자 앞 `{order}` 삽입
+        - *절대* 스크린샷 파일명 확장자 뒤에 시간/일시 등을 절대 붙이지 말 것
     - 위 `{order}`의 의미: `isLeaf`==true인 menu 노드가 `includedScreens` 내에 N개의 화면을 포함하고 있다면, 각 화면별로 파일명 뒤 `_{:02d}`를 붙임
         - 만약 leaf의 `includedScreens`가 단 하나라면 숫자를 붙이지 않음 (i.e., _{order} 생략, 예. mypage_todo_todoscheduler.png)
         - 만약 leaf의 `includedScreens`가 여러개라면 01부터 0N까지를 붙임 (i.e., _{order} 붙임, 예. report_report_list_01.md)
@@ -42,6 +48,9 @@ alwaysApply: true
         - “조회조건 펼치기”가 있을 경우 클릭 한 후 진행 (텍스트가 정확히 일치할 경우에만 실행, 추측 금지)
     - 접속한 화면의 스크린샷을 지정된 경로에 지정된 파일명(*.png)으로 저장
         - 주의: 파일명은 현재 탐색중인 `screenUrl`을 기준으로 반드시 업데이트
+    - Playwright의 `getVisibleHtml`에서 도출한 모든 정보를 Markdown 형식의 Raw Report로 저장
+        - 경로: 02_outputs\reports_raw
+        - 파일명은 아래의 Markdown Report와 동일
     - UI Component를 분석하여 Markdown Report를 생성
         - ***[중요]*** 아래의 특수한 조건 외에는, 기본적으로 화면 구성 요소 (컴포넌트) 분석 시 div id 값이 bodyContent 내부만을 대상으로 수행
             - `isTabPage`== true || `isFullPage` == true || `isPopupPage` == true 인 경우에는 전체 화면에 대하여 분석

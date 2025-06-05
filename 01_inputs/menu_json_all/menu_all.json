@@ -1,0 +1,2865 @@
+{
+    "target": {
+        "baseFile": "menu_tree_csv.csv",
+        "serverUrl": "http://221.148.66.193:20000/",
+        "serverName": "ITSCOPE_BASIC_20000",
+        "lastUpdateDt": "",
+        "lastUpdatePerson": "",
+        "globalParams": [
+            {
+                "paramName": "userId",
+                "paramValue": "sadmin"
+            },
+            {
+                "paramName": "userPw",
+                "paramValue": "sadmin"
+            }
+        ]
+    },
+    "menus": [
+        {
+            "menuId": "MN01",
+            "menuName": "나의업무",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "MN01.01",
+                    "menuName": "나의업무",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "나의업무 → 나의업무",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN01.01.01",
+                            "menuName": "일정 TODO",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/mypage/todo/todoScheduler.do?CM=todoScheduler&menuId=777",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → 일정 TODO",
+                            "includedScreens": [
+                                {
+                                    "screenName": "일정 TODO",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/todo/todoScheduler.do?CM=todoScheduler&menuId=777",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN01.01.02",
+                            "menuName": "My Page",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/mypage/todo/list.do?menuId=102",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → My Page",
+                            "includedScreens": [
+                                {
+                                    "screenName": "My Page",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/todo/list.do?menuId=102",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN01.01.03",
+                            "menuName": "휴가/세미나/출장",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/mypage/agency/list.do?menuId=662",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → 휴가/세미나/출장",
+                            "includedScreens": [
+                                {
+                                    "screenName": "휴가/세미나/출장",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/agency/list.do?menuId=662",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN01.01.04",
+                            "menuName": "나의결재함",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/mypage/todo/listForApprList.do?CM=listForApprList&menuId=661",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → 나의결재함",
+                            "includedScreens": [
+                                {
+                                    "screenName": "나의결재함",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/todo/listForApprList.do?CM=listForApprList&menuId=661",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN01.01.05",
+                            "menuName": "공수관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/mypage/mypage/myTaskDiary.do?menuId=836",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "나의업무 → 나의업무 → 공수관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "공수관리",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/mypage/myTaskDiary.do?menuId=836",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "menuId": "MN02",
+            "menuName": "의사소통관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "MN02.01",
+                    "menuName": "공지관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "의사소통관리 → 공지관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN02.01.01",
+                            "menuName": "공지",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/board/list.do?menuId=847",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 공지관리 → 공지",
+                            "includedScreens": [
+                                {
+                                    "screenName": "공지",
+                                    "screenId": "",
+                                    "screenUrl": "/common/board/list.do?menuId=847",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN02.02",
+                    "menuName": "보고관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "의사소통관리 → 보고관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN02.02.01",
+                            "menuName": "프로젝트 주간보고",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/report/report/list.do?CM=list&searchType=&menuId=852",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 보고관리 → 프로젝트 주간보고",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로젝트 주간보고",
+                                    "screenId": "",
+                                    "screenUrl": "/report/report/list.do?CM=list&searchType=&menuId=852",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN02.02.02",
+                            "menuName": "프로젝트 월간보고",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/report/report/monthReportList.do?CM=monthReportList&searchType=&menuId=853",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 보고관리 → 프로젝트 월간보고",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로젝트 월간보고",
+                                    "screenId": "",
+                                    "screenUrl": "/report/report/monthReportList.do?CM=monthReportList&searchType=&menuId=853",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN02.03",
+                    "menuName": "회의관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "의사소통관리 → 회의관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN02.03.01",
+                            "menuName": "회의실예약",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 회의관리 → 회의실예약",
+                            "includedScreens": [
+                                {
+                                    "screenName": "일자별현황",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854#tab1",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "회의실별 일정 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854#tab2",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "주간 일정",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854#tab3",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                },
+                                {
+                                    "screenName": "월간 일정",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/meetingSchdule.do?CM=meetingSchdule&menuId=854#tab4",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": true,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN02.03.02",
+                            "menuName": "회의록관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/meeting/meeting/prjMeetingSchdule.do?CM=prjMeetingSchdule&menuId=855",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 회의관리 → 회의록관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "회의록관리",
+                                    "screenId": "",
+                                    "screenUrl": "/meeting/meeting/prjMeetingSchdule.do?CM=prjMeetingSchdule&menuId=855",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN02.04",
+                    "menuName": "자료실",
+                    "menuLevel": 2,
+                    "isTestTarget": false,
+                    "url": "/pal/knowledge/list.do?menuId=850",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "의사소통관리 → 자료실",
+                    "includedScreens": [
+                        {
+                            "screenName": "자료실",
+                            "screenId": "",
+                            "screenUrl": "/pal/knowledge/list.do?menuId=850",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN02.05",
+                    "menuName": "게시판",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "의사소통관리 → 게시판",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN02.05.01",
+                            "menuName": "게시판(테스트용)",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/customList.do?customSeq=3&menuId=883",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 게시판 → 게시판(테스트용)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "게시판(테스트용)",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/customList.do?customSeq=3&menuId=883",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN02.05.02",
+                            "menuName": "★ 표준 게시판",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/customList.do?customSeq=4&menuId=884",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 게시판 → ★ 표준 게시판",
+                            "includedScreens": [
+                                {
+                                    "screenName": "★ 표준 게시판",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/customList.do?customSeq=4&menuId=884",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN02.05.03",
+                            "menuName": "게시판2",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/customList.do?customSeq=2&menuId=880",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 게시판 → 게시판2",
+                            "includedScreens": [
+                                {
+                                    "screenName": "게시판2",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/customList.do?customSeq=2&menuId=880",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN02.05.04",
+                            "menuName": "게시판1",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/userCustom/customBoard/customList.do?customSeq=1&menuId=881",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "의사소통관리 → 게시판 → 게시판1",
+                            "includedScreens": [
+                                {
+                                    "screenName": "게시판1",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/customList.do?customSeq=1&menuId=881",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN02.06",
+                    "menuName": "화면정의게시판",
+                    "menuLevel": 2,
+                    "isTestTarget": false,
+                    "url": "/userCustom/customBoard/customList.do?customSeq=13&menuId=875",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "의사소통관리 → 화면정의게시판",
+                    "includedScreens": [
+                        {
+                            "screenName": "화면정의게시판",
+                            "screenId": "",
+                            "screenUrl": "/userCustom/customBoard/customList.do?customSeq=13&menuId=875",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "menuId": "MN03",
+            "menuName": "서비스요청관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "MN03.01",
+                    "menuName": "서비스요청",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "서비스요청관리 → 서비스요청",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN03.01.01",
+                            "menuName": "개발의뢰",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/csr/csr/list.do?CM=list&formKind=19&csrDiv=1&menuId=709",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 서비스요청 → 개발의뢰",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발의뢰",
+                                    "screenId": "",
+                                    "screenUrl": "/csr/csr/list.do?CM=list&formKind=19&csrDiv=1&menuId=709",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN03.02",
+                    "menuName": "업무관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "서비스요청관리 → 업무관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN03.02.01",
+                            "menuName": "단순변경의뢰",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/requestInfo/list.do?CM=list&formKind=31&menuId=837",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 업무관리 → 단순변경의뢰",
+                            "includedScreens": [
+                                {
+                                    "screenName": "단순변경의뢰",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/requestInfo/list.do?CM=list&formKind=31&menuId=837",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN03.02.02",
+                            "menuName": "출력의뢰",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/requestInfo/list.do?CM=list&formKind=30&menuId=838",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 업무관리 → 출력의뢰",
+                            "includedScreens": [
+                                {
+                                    "screenName": "출력의뢰",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/requestInfo/list.do?CM=list&formKind=30&menuId=838",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN03.02.03",
+                            "menuName": "테이블변경",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/requestInfo/list.do?CM=list&formKind=20&menuId=840",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 업무관리 → 테이블변경",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테이블변경",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/requestInfo/list.do?CM=list&formKind=20&menuId=840",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN03.02.04",
+                            "menuName": "방화벽정책변경",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/requestInfo/list.do?CM=list&formKind=21&menuId=841",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 업무관리 → 방화벽정책변경",
+                            "includedScreens": [
+                                {
+                                    "screenName": "방화벽정책변경",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/requestInfo/list.do?CM=list&formKind=21&menuId=841",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN03.03",
+                    "menuName": "서비스요청 현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "서비스요청관리 → 서비스요청 현황",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN03.03.01",
+                            "menuName": "서비스요청 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/csr/csr/csrStatus.do?CM=csrStatus&menuId=870",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 서비스요청 현황 → 서비스요청 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "서비스요청 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/csr/csr/csrStatus.do?CM=csrStatus&menuId=870",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN03.03.02",
+                            "menuName": "사전협의",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/knowledge/list.do?CM=list&knowledgeDiv=33&menuId=708",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 서비스요청 현황 → 사전협의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "사전협의",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/knowledge/list.do?CM=list&knowledgeDiv=33&menuId=708",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN03.04",
+                    "menuName": "영업관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "서비스요청관리 → 영업관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN03.04.01",
+                            "menuName": "영업현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sales/sales/list.do?menuId=824",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 영업관리 → 영업현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "영업현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sales/sales/list.do?menuId=824",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN03.04.02",
+                            "menuName": "계약현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sales/sales/conlist.do?menuId=825",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 영업관리 → 계약현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "계약현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sales/sales/conlist.do?menuId=825",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN03.04.03",
+                            "menuName": "매입/매출현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sales/sales/purchaseList.do?menuId=826",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 영업관리 → 매입/매출현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "매입/매출현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sales/sales/purchaseList.do?menuId=826",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN03.04.04",
+                            "menuName": "거래처관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/comp/list.do?menuId=833",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "서비스요청관리 → 영업관리 → 거래처관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "거래처관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/comp/list.do?menuId=833",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "menuId": "MN04",
+            "menuName": "프로젝트",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "MN04.01",
+                    "menuName": "프로젝트 정보",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "프로젝트 → 프로젝트 정보",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN04.01.01",
+                            "menuName": "Master Project",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/project/list.do?CM=list&menuId=201",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 정보 → Master Project",
+                            "includedScreens": [
+                                {
+                                    "screenName": "Master Project",
+                                    "screenId": "",
+                                    "screenUrl": "/project/project/list.do?CM=list&menuId=201",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN04.01.02",
+                            "menuName": "Sub Project",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/project/subList.do?CM=subList&menuId=529",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 정보 → Sub Project",
+                            "includedScreens": [
+                                {
+                                    "screenName": "Sub Project",
+                                    "screenId": "",
+                                    "screenUrl": "/project/project/subList.do?CM=subList&menuId=529",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN04.01.03",
+                            "menuName": "산출물 결함현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/artifactDefectList.do?CM=tempFrame&menuId=856",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 정보 → 산출물 결함현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "산출물 결함현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/artifactDefectList.do?CM=tempFrame&menuId=856",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN04.01.04",
+                            "menuName": "공정현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/project/ProjectScheduleList.do?CM=ProjectScheduleList&menuId=530",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 정보 → 공정현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "공정현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/project/ProjectScheduleList.do?CM=ProjectScheduleList&menuId=530",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN04.02",
+                    "menuName": "Agile 프로젝트",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "프로젝트 → Agile 프로젝트",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN04.02.01",
+                            "menuName": "백로그",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/agile/agileBacklog/list.do?CM=Agile&menuId=801",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → Agile 프로젝트 → 백로그",
+                            "includedScreens": [
+                                {
+                                    "screenName": "백로그",
+                                    "screenId": "",
+                                    "screenUrl": "/agile/agileBacklog/list.do?CM=Agile&menuId=801",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN04.02.02",
+                            "menuName": "로드맵",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/agile/agileRoadMap/list.do?CM=Agile&menuId=802",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → Agile 프로젝트 → 로드맵",
+                            "includedScreens": [
+                                {
+                                    "screenName": "로드맵",
+                                    "screenId": "",
+                                    "screenUrl": "/agile/agileRoadMap/list.do?CM=Agile&menuId=802",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN04.02.03",
+                            "menuName": "스크럼보드",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/agile/agileScrumBoard/list.do?CM=Agile&menuId=803",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → Agile 프로젝트 → 스크럼보드",
+                            "includedScreens": [
+                                {
+                                    "screenName": "스크럼보드",
+                                    "screenId": "",
+                                    "screenUrl": "/agile/agileScrumBoard/list.do?CM=Agile&menuId=803",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN04.03",
+                    "menuName": "프로젝트 관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "프로젝트 → 프로젝트 관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN04.03.01",
+                            "menuName": "이슈/위험 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/riskList/list.do?menuId=202",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → 이슈/위험 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "이슈/위험 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/riskList/list.do?menuId=202",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN04.03.02",
+                            "menuName": "프로젝트 산출물",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/projectProduct/list.do?menuId=204",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → 프로젝트 산출물",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로젝트 산출물",
+                                    "screenId": "",
+                                    "screenUrl": "/project/projectProduct/list.do?menuId=204",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN04.03.03",
+                            "menuName": "Action Item 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/projectManagement/prjListByActionItem.do?CM=prjListByActionItem&menuId=517",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → Action Item 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "Action Item 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/projectManagement/prjListByActionItem.do?CM=prjListByActionItem&menuId=517",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN04.03.04",
+                            "menuName": "시정조치 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/correctiveList/list.do?menuId=205",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → 시정조치 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "시정조치 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/correctiveList/list.do?menuId=205",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN04.03.05",
+                            "menuName": "품질활동",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/mypage/cstList/list.do?menuId=523",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트 관리 → 품질활동",
+                            "includedScreens": [
+                                {
+                                    "screenName": "품질활동",
+                                    "screenId": "",
+                                    "screenUrl": "/mypage/cstList/list.do?menuId=523",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN04.04",
+                    "menuName": "프로젝트관리 현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "프로젝트 → 프로젝트관리 현황",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN04.04.01",
+                            "menuName": "★ action item 기능 정의",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/userCustom/customType/statusList.do?typeSeq=1&menuId=797",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "프로젝트 → 프로젝트관리 현황 → ★ action item 기능 정의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "★ action item 기능 정의",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customType/statusList.do?typeSeq=1&menuId=797",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "menuId": "MN05",
+            "menuName": "개발관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "MN05.01",
+                    "menuName": "요구사항 관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 요구사항 관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN05.01.01",
+                            "menuName": "RFP 요구사항",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/requestPattern/reqTrackList.do?CM=reqTrackList&menuId=641",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 요구사항 관리 → RFP 요구사항",
+                            "includedScreens": [
+                                {
+                                    "screenName": "RFP 요구사항",
+                                    "screenId": "",
+                                    "screenUrl": "/project/requestPattern/reqTrackList.do?CM=reqTrackList&menuId=641",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.01.02",
+                            "menuName": "요구사항정의",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/scopeInfo/scopeInfoList.do?CM=scopeInfoList&menuId=660",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 요구사항 관리 → 요구사항정의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "요구사항정의",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/scopeInfo/scopeInfoList.do?CM=scopeInfoList&menuId=660",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN05.02",
+                    "menuName": "설계관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 설계관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN05.02.01",
+                            "menuName": "설계목록관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcScreen/list.do?CM=list&menuId=860",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 설계관리 → 설계목록관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "설계목록관리",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcScreen/list.do?CM=list&menuId=860",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.02.02",
+                            "menuName": "업무별 설계현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcScreen/sdlcScreenProgressStatus.do?CM=prjScreenProgressStatus&menuId=871",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 설계관리 → 업무별 설계현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "업무별 설계현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcScreen/sdlcScreenProgressStatus.do?CM=prjScreenProgressStatus&menuId=871",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.02.03",
+                            "menuName": "설계자별 설계현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcScreen/sdlcScreenDesignerStatus.do?CM=prjScreenProgressStatus&menuId=872",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 설계관리 → 설계자별 설계현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "설계자별 설계현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcScreen/sdlcScreenDesignerStatus.do?CM=prjScreenProgressStatus&menuId=872",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.02.04",
+                            "menuName": "설계지연현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcScreen/sdlcScreenDelayStatus.do?CM=prjScreenDelayStatus&menuId=876",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 설계관리 → 설계지연현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "설계지연현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcScreen/sdlcScreenDelayStatus.do?CM=prjScreenDelayStatus&menuId=876",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN05.03",
+                    "menuName": "개발관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 개발관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN05.03.01",
+                            "menuName": "프로그램 목록",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTab/sdlcNewProgramList.do?CM=sdlcProgramList&menuId=861",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발관리 → 프로그램 목록",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로그램 목록",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/sdlcNewProgramList.do?CM=sdlcProgramList&menuId=861",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.03.02",
+                            "menuName": "개발 진척 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&menuId=862",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발관리 → 개발 진척 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발 진척 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&menuId=862",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.03.03",
+                            "menuName": "업무별 프로그램 진척 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&groupByBizCd=T&menuId=863",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발관리 → 업무별 프로그램 진척 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "업무별 프로그램 진척 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&groupByBizCd=T&menuId=863",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.03.04",
+                            "menuName": "개발 지연 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTab/developmentDelaystatusNew.do?CM=developmentDelaystatusNew&menuId=864",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발관리 → 개발 지연 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발 지연 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/developmentDelaystatusNew.do?CM=developmentDelaystatusNew&menuId=864",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.03.05",
+                            "menuName": "개발자 생산성 추이",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcProgram/DeveloperDashboardList.do?menuId=865",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발관리 → 개발자 생산성 추이",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발자 생산성 추이",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcProgram/DeveloperDashboardList.do?menuId=865",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.03.06",
+                            "menuName": "개발자별 진척 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTab/programProgressNew.do?CM=developmentProgressNew&menuId=877",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발관리 → 개발자별 진척 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발자별 진척 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/programProgressNew.do?CM=developmentProgressNew&menuId=877",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.03.07",
+                            "menuName": "업무별 진척 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTab/programProgressNew.do?CM=developmentProgressNew&groupByBizCd=T&menuId=878",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발관리 → 업무별 진척 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "업무별 진척 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/programProgressNew.do?CM=developmentProgressNew&groupByBizCd=T&menuId=878",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN05.04",
+                    "menuName": "테스트관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 테스트관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN05.04.01",
+                            "menuName": "테스트계획",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTest/testPlanList.do?isTestMode=false&menuId=779",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 테스트관리 → 테스트계획",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트계획",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTest/testPlanList.do?isTestMode=false&menuId=779",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.04.02",
+                            "menuName": "테스트수행",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTest/testExecuteList.do?isTestMode=true&menuId=780",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 테스트관리 → 테스트수행",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트수행",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTest/testExecuteList.do?isTestMode=true&menuId=780",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.04.03",
+                            "menuName": "테스트진척현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTest/testProgressStatus.do?menuId=782",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 테스트관리 → 테스트진척현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트진척현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTest/testProgressStatus.do?menuId=782",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.04.04",
+                            "menuName": "테스트지연현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTest/testExecuteDelayList.do?isTestMode=true&menuId=783",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 테스트관리 → 테스트지연현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트지연현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTest/testExecuteDelayList.do?isTestMode=true&menuId=783",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN05.05",
+                    "menuName": "결함 현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 결함 현황",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN05.05.01",
+                            "menuName": "설계 결함 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/sdlcScreenDefectList.do?CM=tempFrame&menuId=873",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 설계 결함 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "설계 결함 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/sdlcScreenDefectList.do?CM=tempFrame&menuId=873",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.05.02",
+                            "menuName": "프로그램 결함 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/pgmDefectList.do?menuId=772",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 프로그램 결함 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로그램 결함 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/pgmDefectList.do?menuId=772",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.05.03",
+                            "menuName": "테스트 결함 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/testDefectList.do?CM=testDefectList&menuId=651",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 결함 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 결함 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/testDefectList.do?CM=testDefectList&menuId=651",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.05.04",
+                            "menuName": "산출물 결함 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/artifactDefectList.do?CM=tempFrame&menuId=834",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 산출물 결함 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "산출물 결함 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/artifactDefectList.do?CM=tempFrame&menuId=834",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.05.05",
+                            "menuName": "테스트 결함 통계",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/testDefectStatusTotal.do?menuId=652",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 결함 통계",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 결함 통계",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/testDefectStatusTotal.do?menuId=652",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.05.06",
+                            "menuName": "테스트 업무별 결함",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/defectCountByWeekly.do?menuId=767",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 업무별 결함",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 업무별 결함",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/defectCountByWeekly.do?menuId=767",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.05.07",
+                            "menuName": "프로그램 업무별 결함",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/pgmDefectCountByWeekly.do?menuId=770",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 프로그램 업무별 결함",
+                            "includedScreens": [
+                                {
+                                    "screenName": "프로그램 업무별 결함",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/pgmDefectCountByWeekly.do?menuId=770",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.05.08",
+                            "menuName": "테스트 케이스별 결함율",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/testDefectByCase.do?menuId=768",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 케이스별 결함율",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 케이스별 결함율",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/testDefectByCase.do?menuId=768",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.05.09",
+                            "menuName": "테스트 결함 통계(항목별)",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/inspectionDefect/testDefectStatistics.do?menuId=879",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 결함 현황 → 테스트 결함 통계(항목별)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테스트 결함 통계(항목별)",
+                                    "screenId": "",
+                                    "screenUrl": "/project/inspectionDefect/testDefectStatistics.do?menuId=879",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN05.06",
+                    "menuName": "개발 현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 개발 현황",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN05.06.01",
+                            "menuName": "개발 진척 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&menuId=765",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발 현황 → 개발 진척 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발 진척 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&menuId=765",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.06.02",
+                            "menuName": "업무별 진척 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&groupByBizCd=T&menuId=769",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발 현황 → 업무별 진척 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "업무별 진척 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/developmentProgressNew.do?CM=developmentProgressNew&groupByBizCd=T&menuId=769",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.06.03",
+                            "menuName": "개발 지연 현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcTab/developmentDelaystatusNew.do?CM=developmentDelaystatusNew&menuId=766",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발 현황 → 개발 지연 현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발 지연 현황",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcTab/developmentDelaystatusNew.do?CM=developmentDelaystatusNew&menuId=766",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.06.04",
+                            "menuName": "개발자 생산성 추이",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/sdlc/sdlcProgram/DeveloperDashboardList.do?menuId=758",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 개발 현황 → 개발자 생산성 추이",
+                            "includedScreens": [
+                                {
+                                    "screenName": "개발자 생산성 추이",
+                                    "screenId": "",
+                                    "screenUrl": "/sdlc/sdlcProgram/DeveloperDashboardList.do?menuId=758",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN05.07",
+                    "menuName": "이행 진척관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "개발관리 → 이행 진척관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN05.07.01",
+                            "menuName": "이행관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/transitionScenario/transitionScenarioResultList.do?callType=&menuId=831",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 이행 진척관리 → 이행관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "이행관리",
+                                    "screenId": "",
+                                    "screenUrl": "/project/transitionScenario/transitionScenarioResultList.do?callType=&menuId=831",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN05.07.02",
+                            "menuName": "이행현황",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/project/transitionScenario/transitionScenarioDashBoard.do?menuId=832",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "개발관리 → 이행 진척관리 → 이행현황",
+                            "includedScreens": [
+                                {
+                                    "screenName": "이행현황",
+                                    "screenId": "",
+                                    "screenUrl": "/project/transitionScenario/transitionScenarioDashBoard.do?menuId=832",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "menuId": "MN06",
+            "menuName": "업무표준",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "MN06.01",
+                    "menuName": "표준관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "업무표준 → 표준관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN06.01.01",
+                            "menuName": "표준 산출물",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdArtifact/list.do?menuId=301",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 산출물",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 산출물",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdArtifact/list.do?menuId=301",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN06.01.02",
+                            "menuName": "표준 체크리스트",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdChecklist/list.do?menuId=302",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 체크리스트",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 체크리스트",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdChecklist/list.do?menuId=302",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN06.01.03",
+                            "menuName": "표준 WBS",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdWbs/list.do?CM=list&menuId=303",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 WBS",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 WBS",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdWbs/list.do?CM=list&menuId=303",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN06.01.04",
+                            "menuName": "표준 프로세스",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdWorkflow/list.do?menuId=538",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 프로세스",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 프로세스",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdWorkflow/list.do?menuId=538",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN06.01.05",
+                            "menuName": "표준 프로세스(Diagram)",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdDiaWorkflow/list.do?menuId=822",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 프로세스(Diagram)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 프로세스(Diagram)",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdDiaWorkflow/list.do?menuId=822",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN06.01.06",
+                            "menuName": "표준 화면",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdProcess/stdFormList.do?menuId=821",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → 표준 프로세스(Diagram)",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 프로세스(Diagram)",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdDiaWorkflow/list.do?menuId=822",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN06.01.07",
+                            "menuName": "dhtmlx 산출물 샘플",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/pal/stdArtifact/sampleList.do?menuId=882",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 표준관리 → dhtmlx 산출물 샘플",
+                            "includedScreens": [
+                                {
+                                    "screenName": "dhtmlx 산출물 샘플",
+                                    "screenId": "",
+                                    "screenUrl": "/pal/stdArtifact/sampleList.do?menuId=882",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN06.02",
+                    "menuName": "시스템정의기능",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "업무표준 → 시스템정의기능",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN06.02.01",
+                            "menuName": "표준 프로젝트 관리 기능 정의",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/userCustom/stdType/list.do?menuId=786",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 시스템정의기능 → 표준 프로젝트 관리 기능 정의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 프로젝트 관리 기능 정의",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/stdType/list.do?menuId=786",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN06.02.02",
+                            "menuName": "표준 게시판 기능 정의",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/userCustom/customBoard/list.do?menuId=793",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "업무표준 → 시스템정의기능 → 표준 게시판 기능 정의",
+                            "includedScreens": [
+                                {
+                                    "screenName": "표준 게시판 기능 정의",
+                                    "screenId": "",
+                                    "screenUrl": "/userCustom/customBoard/list.do?menuId=793",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "menuId": "MN07",
+            "menuName": "현황및통계",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "MN07.01",
+                    "menuName": "Dashboard",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/dashboard/dashBoardMng/list.do?menuId=401",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → Dashboard",
+                    "includedScreens": [
+                        {
+                            "screenName": "프로젝트Dashboard",
+                            "screenId": "",
+                            "screenUrl": "/project/projectSummary/detailNew.do?CM=detailNew",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "주간진척현황",
+                            "screenId": "",
+                            "screenUrl": "/report/report/weeklyDashboard.do?CM=weeklyDashboard",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "프로젝트현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashBoardProjectStatus.do?CM=DashBoardProjectStatus",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "종합현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashBoardTotalStatus.do?CM=DashBoardTotalStatus",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "월간 현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/summaryList.do?CM=summaryList",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "기한내현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/limitRateList.do?CM=limitRateList",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "주간 프로젝트 현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashMngWeeklyDeptPrjTab.do?CM=DashMngWeeklyDeptPrjTab",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "월별 프로젝트 현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashBoardDeptMonProject.do?CM=DashBoardDeptMonProject",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        },
+                        {
+                            "screenName": "부서별프로젝트현황",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardMng/DashBoardDeptProject.do?CM=DashBoardDeptProject",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": true,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN07.02",
+                    "menuName": "주간진행현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/report/report/weekReportStatusList.do?CM=weekReportStatusList&menuId=705",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → 주간진행현황",
+                    "includedScreens": [
+                        {
+                            "screenName": "주간진행현황",
+                            "screenId": "",
+                            "screenUrl": "/report/report/weekReportStatusList.do?CM=weekReportStatusList&menuId=705",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN07.03",
+                    "menuName": "부서별 투입현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/project/dashboard/manmonthDashboard.do?CM=manmonthDashboard&menuId=735",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → 부서별 투입현황",
+                    "includedScreens": [
+                        {
+                            "screenName": "부서별 투입현황",
+                            "screenId": "",
+                            "screenUrl": "/project/dashboard/manmonthDashboard.do?CM=manmonthDashboard&menuId=735",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN07.04",
+                    "menuName": "프로젝트별 투입현황",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/project/dashboard/manmonthByProject.do?CM=manmonthByProject&menuId=741",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → 프로젝트별 투입현황",
+                    "includedScreens": [
+                        {
+                            "screenName": "프로젝트별 투입현황",
+                            "screenId": "",
+                            "screenUrl": "/project/dashboard/manmonthByProject.do?CM=manmonthByProject&menuId=741",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN07.05",
+                    "menuName": "전사 대쉬보드",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/project/dashboard/entPriseDashboard.do?CM=entPriseDashboard&menuId=743",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → 전사 대쉬보드",
+                    "includedScreens": [
+                        {
+                            "screenName": "전사 대쉬보드",
+                            "screenId": "",
+                            "screenUrl": "/project/dashboard/entPriseDashboard.do?CM=entPriseDashboard&menuId=743",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN07.06",
+                    "menuName": "본부별 대쉬보드",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/project/dashboard/deptDashboard.do?CM=deptDashboard&menuId=744",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → 본부별 대쉬보드",
+                    "includedScreens": [
+                        {
+                            "screenName": "본부별 대쉬보드",
+                            "screenId": "",
+                            "screenUrl": "/project/dashboard/deptDashboard.do?CM=deptDashboard&menuId=744",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN07.07",
+                    "menuName": "부서별 가동률(계획)",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/dashboard/dashBoardDept/operatingRatio.do?CM=operatingRatio&searchDiv=PLAN&menuId=745",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → 부서별 가동률(계획)",
+                    "includedScreens": [
+                        {
+                            "screenName": "부서별 가동률(계획)",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardDept/operatingRatio.do?CM=operatingRatio&searchDiv=PLAN&menuId=745",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN07.08",
+                    "menuName": "부서별 가동률(실적)",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/dashboard/dashBoardDept/operatingRatio.do?CM=operatingRatio&searchDiv=REAL&menuId=746",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "현황및통계 → 부서별 가동률(실적)",
+                    "includedScreens": [
+                        {
+                            "screenName": "부서별 가동률(실적)",
+                            "screenId": "",
+                            "screenUrl": "/dashboard/dashBoardDept/operatingRatio.do?CM=operatingRatio&searchDiv=REAL&menuId=746",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "menuId": "MN08",
+            "menuName": "시스템관리",
+            "menuLevel": 1,
+            "isTestTarget": true,
+            "children": [
+                {
+                    "menuId": "MN08.01",
+                    "menuName": "메뉴관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "시스템관리 → 메뉴관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN08.01.01",
+                            "menuName": "메뉴",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/menu/list.do?menuId=729",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 메뉴관리 → 메뉴",
+                            "includedScreens": [
+                                {
+                                    "screenName": "메뉴",
+                                    "screenId": "",
+                                    "screenUrl": "/common/menu/list.do?menuId=729",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.01.02",
+                            "menuName": "권한관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/menuAuth/list.do?menuId=503",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 메뉴관리 → 권한관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "권한관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/menuAuth/list.do?menuId=503",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.01.03",
+                            "menuName": "화면버튼관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/system/cmdPermit/list.do?menuId=818",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 메뉴관리 → 화면버튼관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "화면버튼관리",
+                                    "screenId": "",
+                                    "screenUrl": "/system/cmdPermit/list.do?menuId=818",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN08.02",
+                    "menuName": "조직관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "시스템관리 → 조직관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN08.02.01",
+                            "menuName": "부서관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/dept/list.do?menuId=501",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 조직관리 → 부서관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "부서관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/dept/list.do?menuId=501",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.02.02",
+                            "menuName": "사용자관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/user/list.do?menuId=502",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 조직관리 → 사용자관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "사용자관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/user/list.do?menuId=502",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.02.03",
+                            "menuName": "직위/직책관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/grade/list.do?menuId=527",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 조직관리 → 직위/직책관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "직위/직책관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/grade/list.do?menuId=527",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN08.03",
+                    "menuName": "시스템 정보관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "시스템관리 → 시스템 정보관리",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN08.03.01",
+                            "menuName": "코드관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/code/list.do?menuId=504",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템 정보관리 → 코드관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "코드관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/code/list.do?menuId=504",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.03.02",
+                            "menuName": "공통코드관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/system/cmmCode/list.do?menuId=817",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템 정보관리 → 공통코드관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "공통코드관리",
+                                    "screenId": "",
+                                    "screenUrl": "/system/cmmCode/list.do?menuId=817",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.03.03",
+                            "menuName": "결재선관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/approvalLine/list.do?menuId=505",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템 정보관리 → 결재선관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "결재선관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/approvalLine/list.do?menuId=505",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.03.04",
+                            "menuName": "기본결재선관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/approvalUserLine/list.do?menuId=805",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템 정보관리 → 기본결재선관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "기본결재선관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/approvalUserLine/list.do?menuId=805",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.03.05",
+                            "menuName": "회사정보",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/company/detail.do?menuId=526",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템 정보관리 → 회사정보",
+                            "includedScreens": [
+                                {
+                                    "screenName": "회사정보",
+                                    "screenId": "",
+                                    "screenUrl": "/common/company/detail.do?menuId=526",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.03.06",
+                            "menuName": "양식관리",
+                            "menuLevel": 3,
+                            "isTestTarget": true,
+                            "url": "/common/formPattern/list.do?menuId=507",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 시스템 정보관리 → 양식관리",
+                            "includedScreens": [
+                                {
+                                    "screenName": "양식관리",
+                                    "screenId": "",
+                                    "screenUrl": "/common/formPattern/list.do?menuId=507",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN08.04",
+                    "menuName": "사용자 접속 로그",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/common/userLog/list.do?menuId=508",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "시스템관리 → 사용자 접속 로그",
+                    "includedScreens": [
+                        {
+                            "screenName": "사용자 접속 로그",
+                            "screenId": "",
+                            "screenUrl": "/common/userLog/list.do?menuId=508",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN08.05",
+                    "menuName": "시스템 메시지 관리",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "/common/message/list.do?menuId=534",
+                    "isActive": true,
+                    "isLeaf": true,
+                    "path": "시스템관리 → 시스템 메시지 관리",
+                    "includedScreens": [
+                        {
+                            "screenName": "시스템 메시지 관리",
+                            "screenId": "",
+                            "screenUrl": "/common/message/list.do?menuId=534",
+                            "isFullPage": false,
+                            "isPopupPage": false,
+                            "isTabPage": false,
+                            "params": [],
+                            "transitions": []
+                        }
+                    ]
+                },
+                {
+                    "menuId": "MN08.06",
+                    "menuName": "개발지원",
+                    "menuLevel": 2,
+                    "isTestTarget": true,
+                    "url": "",
+                    "isActive": true,
+                    "isLeaf": false,
+                    "path": "시스템관리 → 개발지원",
+                    "includedScreens": [],
+                    "children": [
+                        {
+                            "menuId": "MN08.06.01",
+                            "menuName": "테이블 목록 조회",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/develop/tableRef/list.do?menuId=800",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 개발지원 → 테이블 목록 조회",
+                            "includedScreens": [
+                                {
+                                    "screenName": "테이블 목록 조회",
+                                    "screenId": "",
+                                    "screenUrl": "/develop/tableRef/list.do?menuId=800",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.06.02",
+                            "menuName": "ERD 그리기",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/develop/tableRef/drawErd.do?menuId=819",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 개발지원 → ERD 그리기",
+                            "includedScreens": [
+                                {
+                                    "screenName": "ERD 그리기",
+                                    "screenId": "",
+                                    "screenUrl": "/develop/tableRef/drawErd.do?menuId=819",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        },
+                        {
+                            "menuId": "MN08.06.03",
+                            "menuName": "쿼리 실행기",
+                            "menuLevel": 3,
+                            "isTestTarget": false,
+                            "url": "/develop/queryExe/queryRunner.do?menuId=820",
+                            "isActive": true,
+                            "isLeaf": true,
+                            "path": "시스템관리 → 개발지원 → 쿼리 실행기",
+                            "includedScreens": [
+                                {
+                                    "screenName": "쿼리 실행기",
+                                    "screenId": "",
+                                    "screenUrl": "/develop/queryExe/queryRunner.do?menuId=820",
+                                    "isFullPage": false,
+                                    "isPopupPage": false,
+                                    "isTabPage": false,
+                                    "params": [],
+                                    "transitions": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
